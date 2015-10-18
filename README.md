@@ -144,7 +144,7 @@ In the following you can find a description of the parameters of SLightliMon. Be
 
 ### Text input format
 
-Input text files must be single-column files containing only numbers or the word 'nan' (without quotes) to represent no data values. Each row reports the measured value at a certain time instant. The software assumes that the first row corresponds to the start timestamp and that the time interval between consecutive rows is 1 minute. If past reference data are also given, they must follow the present data in the same file without any additional empty line. Each reference day must have the same number of data points of present data. You may have a look ********here********** for a practical example.
+Input text files must be single-column files containing only numbers or the word 'nan' (without quotes) to represent no data values. Each row reports the measured value at a certain time instant. The software assumes that the first row corresponds to the start timestamp and that the time interval between consecutive rows is 1 minute. If past reference data are also given, they must follow the present data in the same file without any additional empty line. Each reference day must have the same number of data points of present data. You may have a look at https://github.com/adamoferro/slightlimon/tree/master/test-data for a practical example.
 
 ### Dependencies
 
